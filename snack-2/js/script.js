@@ -3,13 +3,11 @@
 
 const numbersList = [];
 let sum = 0;
-let userNumber;
 while (sum < 50) {
-    userNumber = parseInt(prompt('Inserisci un numero'))
+    let userNumber = parseInt(prompt('Inserisci un numero'))
     sum += userNumber
     console.log(sum)
     numbersList.push(userNumber);
 }
 
-console.log(sum);
 console.log(numbersList);
