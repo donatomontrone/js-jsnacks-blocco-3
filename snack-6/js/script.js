@@ -8,7 +8,6 @@ function getSumOfArrayElements(array) {
         const castedNumber = parseInt(array[index], 10);
         if ( !Number.isNaN(castedNumber) ) {
             sum += castedNumber;
-
         }
     }
     return sum;
