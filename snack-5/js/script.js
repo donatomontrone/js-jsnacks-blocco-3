@@ -5,8 +5,8 @@ function getRandomNumber(numMax, numMin) {
     return randomNumber;
 }
 
-console.warn(getRandomNumber(0,10000));
-console.warn(getRandomNumber(0,10000));
-console.warn(getRandomNumber(0,10000));
-console.warn(getRandomNumber(0,10000));
-console.warn(getRandomNumber(0,10000));
+console.warn(getRandomNumber(1000, 0));
+console.error(getRandomNumber(1000, 0));
+console.warn(getRandomNumber(1000, 0));
+console.error(getRandomNumber(1000, 0));
+console.warn(getRandomNumber(1000, 0));
